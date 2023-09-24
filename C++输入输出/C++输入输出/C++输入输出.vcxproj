@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{03D54155-8CDA-4AB2-A8F0-F7CC1B4D4F04}</ProjectGuid>
-    <RootNamespace>C标准异常类</RootNamespace>
+    <ProjectGuid>{B4D11F9A-866A-4F94-8AD9-E0E14A674BC2}</ProjectGuid>
+    <RootNamespace>C输入输出</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
