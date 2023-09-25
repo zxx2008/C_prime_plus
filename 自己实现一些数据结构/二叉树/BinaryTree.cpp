@@ -7,7 +7,7 @@ BinaryTree<T>::BinaryTree() {
 
 template <class T>
 BinaryTree<T>::BinaryTree(T val) {
-	root = new BinaryTreeNode(val);
+	root = new BinaryTreeNode<T>(val);
 }
 
 template <class T>

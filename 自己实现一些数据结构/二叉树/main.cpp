@@ -1,4 +1,5 @@
 #include "BinaryTree.h"
+#include "BinaryTree.cpp"
 
 int main() {
 	BinaryTree<int>* tree = new BinaryTree<int>(9);

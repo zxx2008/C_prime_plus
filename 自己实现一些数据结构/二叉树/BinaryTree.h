@@ -1,4 +1,7 @@
-#pragma once
+#ifndef _BINARY_TREE_H_
+#define _BINARY_TREE_H_
+
+
 #include <iostream>
 
 template <class T>
@@ -14,7 +17,7 @@ template <class T>
 class BinaryTree {
 public:
 	BinaryTree();
-	~BinaryTree();
+	~BinaryTree() = default;
 	BinaryTree(T val);
 	bool Insert(BinaryTreeNode<T> * cur, T val, bool isLeft) { //通过isLeft判断新节点放在cur的左孩子还是右孩子
 		if (isLeft) {
@@ -49,3 +52,5 @@ public:
 private:
 	struct BinaryTreeNode<T>* root;
 };
+
+#endif // !_BINARY_TREE_H_
