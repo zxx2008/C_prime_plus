@@ -6,4 +6,5 @@ int main() {
 	tree->Insert(tree->getRoot(), 8, true);
 	tree->Insert(tree->getRoot(), 10, false);
 	tree->PreOrder(tree->getRoot());
+	tree->~BinaryTree();
 }

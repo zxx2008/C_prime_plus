@@ -17,7 +17,8 @@ template <class T>
 class BinaryTree {
 public:
 	BinaryTree();
-	~BinaryTree() = default;
+	~BinaryTree();
+	void destroy(BinaryTreeNode<T> * cur);
 	BinaryTree(T val);
 	bool Insert(BinaryTreeNode<T> * cur, T val, bool isLeft) { //通过isLeft判断新节点放在cur的左孩子还是右孩子
 		if (isLeft) {

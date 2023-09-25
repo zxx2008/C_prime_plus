@@ -6,6 +6,20 @@ BinaryTree<T>::BinaryTree() {
 }
 
 template <class T>
+BinaryTree<T>::~BinaryTree() {
+	destroy(root);
+}
+
+template <class T>
+void BinaryTree<T>::destroy(BinaryTreeNode<T>* cur) {
+	if (cur != nullptr) {
+		destroy(cur->leftChildren);
+		destroy(cur->rightChildren);
+		delete cur;
+	}
+}
+
+template <class T>
 BinaryTree<T>::BinaryTree(T val) {
 	root = new BinaryTreeNode<T>(val);
 }
