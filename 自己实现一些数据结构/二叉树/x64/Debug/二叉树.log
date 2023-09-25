@@ -1,0 +1,5 @@
+﻿  BinaryTree.cpp
+  main.cpp
+  正在生成代码...
+D:\workspace\C_prime_plus\自己实现一些数据结构\二叉树\BinaryTree.h(44): warning C4715: “BinaryTree<int>::Insert”: 不是所有的控件路径都返回值
+  二叉树.vcxproj -> D:\workspace\C_prime_plus\自己实现一些数据结构\x64\Debug\二叉树.exe

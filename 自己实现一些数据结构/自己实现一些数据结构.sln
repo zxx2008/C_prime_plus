@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "B树", "B树\B树.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树", "二叉树\二叉树.vcxproj", "{C6312757-0D17-401C-890D-C127B88A8157}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AVL树", "AVL树\AVL树.vcxproj", "{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{C6312757-0D17-401C-890D-C127B88A8157}.Release|x64.Build.0 = Release|x64
 		{C6312757-0D17-401C-890D-C127B88A8157}.Release|x86.ActiveCfg = Release|Win32
 		{C6312757-0D17-401C-890D-C127B88A8157}.Release|x86.Build.0 = Release|Win32
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Debug|x64.ActiveCfg = Debug|x64
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Debug|x64.Build.0 = Debug|x64
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Debug|x86.Build.0 = Debug|Win32
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Release|x64.ActiveCfg = Release|x64
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Release|x64.Build.0 = Release|x64
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Release|x86.ActiveCfg = Release|Win32
+		{6F0F5D59-0B78-4B91-9805-5FFCC2B45E42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
