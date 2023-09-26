@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlockQueue", "BlockQueue\BlockQueue.vcxproj", "{A9289FD8-511F-4E32-B57A-97EE7494F8B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Debug|x64.ActiveCfg = Debug|x64
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Debug|x64.Build.0 = Debug|x64
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Debug|x86.Build.0 = Debug|Win32
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Release|x64.ActiveCfg = Release|x64
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Release|x64.Build.0 = Release|x64
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Release|x86.ActiveCfg = Release|Win32
+		{A9289FD8-511F-4E32-B57A-97EE7494F8B7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B24C6F7-6A8E-4FF8-A79E-29C3369612C9}
+	EndGlobalSection
+EndGlobal
